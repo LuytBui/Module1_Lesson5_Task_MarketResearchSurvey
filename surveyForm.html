@@ -39,6 +39,9 @@
             font-size:120%;
             font-weight:bold;
         }
+        tr:nth-child(odd) {
+            background-color: #dddddd;
+        }
     </style>
 </head>
 <body>
@@ -112,7 +115,7 @@
 <div>   <!----------------div #8-->
     <h5>Please rate your level of agreement with the following statements.</h5>
     <table border="1">
-        <tr class="oddRows">
+        <tr>
             <th></th>
             <th>Strongly Disagree</th>
             <th>Disagree</th>
@@ -126,7 +129,7 @@
             <td><input type="radio" name="statement-1" value="Agreed" class="radioBox"/></td>
             <td><input type="radio" name="statement-1" value="S-Agreed" class="radioBox"/></td>
         </tr>
-        <tr class="oddRows">
+        <tr>
             <td class="statementParagraph">Our products are high quality.</td>
             <td><input type="radio" name="statement-2" value="S-Disagreed" class="radioBox"/></td>
             <td><input type="radio" name="statement-2" value="Disagreed" class="radioBox"/></td>
