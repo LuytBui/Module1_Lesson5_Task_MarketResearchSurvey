@@ -22,13 +22,15 @@
             width:80px;
         }
         .oddRows{
-            background-color: #BDBDBD;
+            background-color: #DFDFDF;
         }
         .radioBox{
             align-self:center;
+            width:120px;
         }
         .statementParagraph{
             margin:20px 10px 12px 40px;
+            width:300px;
             font-style:oblique;
             font-weight:bold;
         }
@@ -98,7 +100,7 @@
     .
     <input type="number" name="cent" class="priceInput"/>
     <br>
-    <pre>    Dollars      cent</pre>
+    <pre>    Dollars      Cents</pre>
 
 </div>   <!----------------div #6-->
 
@@ -124,7 +126,7 @@
             <td><input type="radio" name="statement-1" value="Agreed" class="radioBox"/></td>
             <td><input type="radio" name="statement-1" value="S-Agreed" class="radioBox"/></td>
         </tr>
-        <tr>
+        <tr class="oddRows">
             <td class="statementParagraph">Our products are high quality.</td>
             <td><input type="radio" name="statement-2" value="S-Disagreed" class="radioBox"/></td>
             <td><input type="radio" name="statement-2" value="Disagreed" class="radioBox"/></td>
